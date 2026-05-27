@@ -8,22 +8,31 @@ I build AI products end-to-end. Most recently, I shipped Savora, an AI cooking i
 
 ---
 
-## Featured: Savora
+## Featured Builds
 
-**AI-powered cooking iOS app, live on the App Store**
-
-Built solo end-to-end in 4-5 months. GPT-4o fine-tuned on 37,000+ curated culinary examples, React Native iOS client, Next.js backend, Supabase data layer.
+### Savora — AI Cooking iOS App
+**Live on the App Store.** GPT-4o fine-tuned on 37,000+ curated culinary examples. React Native client, Next.js backend, Supabase data layer. Built solo end-to-end in 4-5 months.
 
 - Custom fine-tuning pipeline (dataset prep, training runs, evaluation)
-- React Native mobile app, App Store distribution
+- React Native iOS app, App Store distribution
 - 10,000+ recipe content library powering generation and retrieval
 - Alexa integration in development for voice-first cooking
 
-[Architecture write-up](https://github.com/Arieleon25/savora-case-study) · [Download on App Store](https://apps.apple.com/us/app/savora-cook-from-your-pantry/id6757724614)
+[Architecture & process writeup](https://github.com/Arieleon25/savora-case-study) · [Download on App Store](https://apps.apple.com/us/app/savora-cook-from-your-pantry/id6757724614)
+
+### Luffy — Cron-Based LLM Job-Discovery Agent
+**Personal production tool.** A cron-based agent that pulls job-alert emails daily, extracts structured data via LLM, ranks against a candidate profile, and delivers a Telegram digest. Reduces a 15-30 min daily inbox triage to a 2-min ranked-list scan.
+
+- LLM-based email parsing (Anthropic Claude)
+- Profile-aware contextual ranking
+- Telegram delivery for mobile-native UX
+- Memory archive for dedupe across runs
+
+[Architecture & process writeup](https://github.com/Arieleon25/luffy-case-study)
 
 ---
 
-## What I'm Building / Working On
+## What I'm Working On
 
 - **AI agents and tooling:** cron-based discovery agents, custom GPT-4o tooling for category-specific workflows, fine-tuning pipelines for consumer AI products
 - **Mobile + full-stack AI products:** React Native + Next.js + LLM integration
