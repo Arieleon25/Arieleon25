@@ -19,7 +19,7 @@ Built solo end-to-end in 4-5 months. GPT-4o fine-tuned on 37,000+ curated culina
 - 10,000+ recipe content library powering generation and retrieval
 - Alexa integration in development for voice-first cooking
 
-[Architecture write-up](./savora-case-study) · [Download on App Store](https://apps.apple.com/us/app/savora-cook-from-your-pantry/id6757724614)
+[Architecture write-up](https://github.com/Arieleon25/savora-case-study) · [Download on App Store](https://apps.apple.com/us/app/savora-cook-from-your-pantry/id6757724614)
 
 ---
 
